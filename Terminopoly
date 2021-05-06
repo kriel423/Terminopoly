@@ -1,0 +1,41 @@
+the players have to be initialized or added to the game.
+-> user will require a request: how many players will be playing?
+
+once the players are added, each player will start off with WTC500.
+-> create objects in python - this object will require a name and an amount
+
+player one will roll two die. that number will be the number of spaces moved.
+-> player 1 needs to be promted to roll the dice. Once the dice is rolled, this
+number needs to be saved and a list needs to be traversed.
+
+
+if the player rolls a number, move that number of spaces on the blocks.
+-> the list needs to be checked. once this is landed on, the user needs to
+be promted for further action.
+ --> purchase property for WTC_XXX
+     player1.money - WTCXXX
+     update players amount of money
+
+ --> auction property
+     'all players bid for this property'
+
+ --> check if another player is already on that block:
+     'if another player is on the block, the landed player should only have the option
+     to rent the property'
+
+ --> once all conditions have been checked, the next player rolls the dice
+
+once the player lands on a block, the block that they landed on needs to be checked.
+
+
+this will contain a name, an owner, a price and a rental amount.
+-> need to create a class for each card that has the same properties
+-> these cards will then be added to a list
+
+if the player lands on a chance or community chest, the first item in the list should be passed.
+-> community chest should be a class
+-> free parking to be a null card
+-> go straight to jail to be a card that sends the user to jail | the  user then
+   needs to roll the dice 3 times in order to move on. A minimum threshold should be set
+   if this threshold is achieved, the user can move one block and the next player proceeds.
+
